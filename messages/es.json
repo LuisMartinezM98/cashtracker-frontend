@@ -1,0 +1,28 @@
+{
+  "RegisterPage": {
+    "title": "Crear cuenta",
+    "subtitle": "y controla tus",
+    "span": "finanzas",
+    "errors": {
+      "email_required": "El correo electrónico es requerido.",
+      "email_invalid": "El correo electrónico no es válido.",
+      "name_required": "Tu nombre no puede ir vacío.",
+      "password_short": "La contraseña es muy corta, mínimo 8 caracteres.",
+      "passwords_dont_match": "Las contraseñas no coinciden.",
+      "server_error": "Ocurrió un error inesperado en el servidor.",
+      "Account created successfully": "¡Cuenta creada exitosamente!",
+      "Email already exists": "Este correo electrónico ya está registrado."
+    },
+    "form":{
+      "name": "Nombre",
+      "name_placeholder": "Nombre de Registro",
+      "email": "Correo electrónico",
+      "email_placeholder": "Email de Registro",
+      "password": "Contraseña",
+      "password_placeholder": "Contraseña de Registro",
+      "password_confirm": "Confirmar contraseña",
+      "password_confirm_placeholder": "Confirmar contraseña de Registro",
+      "submit": "Registrarme"
+    }
+  }
+}

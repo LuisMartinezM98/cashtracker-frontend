@@ -1,0 +1,28 @@
+{
+  "RegisterPage": {
+    "title": "Create an account",
+    "subtitle": "and control your",
+    "span": "finances",
+    "errors": {
+      "email_required": "Email is required.",
+      "email_invalid": "Invalid email address.",
+      "name_required": "Your name cannot be empty.",
+      "password_short": "Password is too short, minimum 8 characters.",
+      "passwords_dont_match": "Passwords do not match.",
+      "server_error": "An unexpected error occurred on the server.",
+      "Account created successfully": "Account created successfully!",
+      "Email already exists": "This email is already registered."
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Registration Name",
+      "email": "Email address",
+      "email_placeholder": "Registration Email",
+      "password": "Password",
+      "password_placeholder": "Registration Password",
+      "password_confirm": "Confirm password",
+      "password_confirm_placeholder": "Confirm Registration Password",
+      "submit": "Sign up"
+    }
+  }
+}
