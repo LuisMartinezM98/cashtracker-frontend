@@ -75,6 +75,8 @@ pnpm run dev
 Abre http://localhost:3000 en tu navegador para ver la aplicación en acción.
 
 ### Estructura del proyecto
+
+```text
 ├── src/
 │   ├── app/            # App Router (Páginas y rutas principales)
 │   ├── auth/           # funciones de autenticacion como dal y token.
