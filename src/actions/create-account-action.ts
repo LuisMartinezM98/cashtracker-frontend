@@ -1,6 +1,6 @@
 "use server"
 
-import { RegisterSchema, SuccessSchema } from "@/schemas"
+import { ErrorResponseSchema, RegisterSchema, SuccessSchema } from "@/schemas"
 
 type ActionStateType = {
     errors: string[];
@@ -37,17 +37,29 @@ export async function register(prevState: ActionStateType, formData: FormData) {
 
     const json = await req.json();
 
-    const successValidation = SuccessSchema.safeParse(json);
-    if (!successValidation.success) {
+    if(req.status === 409){
+        const error = ErrorResponseSchema.parse(json);
         return {
-            errors: [json.message || "Error desconocido"],
-            success: prevState.success
+            errors: [error.error],
+            success: ''
         }
     }
 
+    const successValidation = SuccessSchema.parse(json);
+
+
+
+    // const successValidation = SuccessSchema.safeParse(json);
+    // if (!successValidation.success) {
+    //     return {
+    //         errors: [json.message || "Error desconocido"],
+    //         success: prevState.success
+    //     }
+    // }
+
     return {
-        errors: prevState.errors,
-        success: successValidation.data.message
+        errors: [],
+        success: successValidation.message
     }
 
 }
