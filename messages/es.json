@@ -9,9 +9,9 @@
       "name_required": "Tu nombre no puede ir vacío.",
       "password_short": "La contraseña es muy corta, mínimo 8 caracteres.",
       "passwords_dont_match": "Las contraseñas no coinciden.",
-      "server_error": "Ocurrió un error inesperado en el servidor.",
+      "Failed to create account": "Ocurrió un error inesperado en el servidor.",
       "Account created successfully": "¡Cuenta creada exitosamente!",
-      "Email already exists": "Este correo electrónico ya está registrado."
+      "User already exists": "Este correo electrónico ya está registrado."
     },
     "form":{
       "name": "Nombre",

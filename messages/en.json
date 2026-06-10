@@ -3,6 +3,8 @@
     "title": "Create an account",
     "subtitle": "and control your",
     "span": "finances",
+    "login_link": "Do you have an account? Log in",
+    "forgotpassword_link": "Do you forget your password? Reset",
     "errors": {
       "email_required": "Email is required.",
       "email_invalid": "Invalid email address.",
@@ -11,7 +13,7 @@
       "passwords_dont_match": "Passwords do not match.",
       "server_error": "An unexpected error occurred on the server.",
       "Account created successfully": "Account created successfully!",
-      "Email already exists": "This email is already registered."
+      "User already exists": "This email is already registered."
     },
     "form": {
       "name": "Name",
@@ -23,6 +25,22 @@
       "password_confirm": "Confirm password",
       "password_confirm_placeholder": "Confirm Registration Password",
       "submit": "Sign up"
+    }
+  },
+  "LoginPage": {
+    "metadata-title": "CashTrackr - Log in",
+    "metadata-description": "Log in to CashTrackr",
+    "title": "Log in",
+    "subtitle": "and control your",
+    "span": "finances",
+    "singup_link": "Don't have an account? Sign up",
+    "forgotpassword_link": "Do you forget your password? Reset",
+    "form": {
+      "email": "Email address",
+      "email_placeholder": "Email",
+      "password": "Password",
+      "password_placeholder": "Password",
+      "submit": "Log in"
     }
   }
 }
