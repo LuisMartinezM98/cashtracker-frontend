@@ -22,7 +22,7 @@ export default function RootLayout({
       lang="en"
       className={outfit.className}
     >
-      <body className="min-h-full flex flex-col">
+      <body>
         <NextIntlClientProvider>
           {children}
         </NextIntlClientProvider>
