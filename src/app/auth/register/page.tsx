@@ -25,13 +25,13 @@ export default function RegisterPage() {
                     href="/auth/login"
                     className='text-center text-gray-500'
                 >
-                    ¿Ya tienes cuenta? Iniciar Sesión
+                    {t('login_link')}
                 </Link>
                 <Link
                     href="/auth/forgot-password"
                     className='text-center text-gray-500'
                 >
-                    ¿Olvidaste tu contraseña? Restablecer
+                    {t('forgotpassword_link')}
                 </Link>
             </nav>
         </>
